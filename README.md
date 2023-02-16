@@ -34,10 +34,10 @@ if __name__ == "__main__":
         exit(1)
 
     print("Completed successfully.")
+```
+The `__init__` method initializes the class with the model path, input folder, and output folder.
 
-The init method initializes the class with the model path, input folder, and output folder.
+The `prepare_model` method loads the YOLO model from the specified file path.
 
-The prepare_model method loads the YOLO model from the specified file path.
-
-The detect_objects method loops through each image in the input folder, performs object detection using the YOLO model, and crops the first detected object from the image. The cropped image is then saved to the output folder.
+The `detect_objects` method loops through each image in the input folder, performs object detection using the YOLO model, and crops the first detected object from the image. The cropped image is then saved to the output folder.
 
