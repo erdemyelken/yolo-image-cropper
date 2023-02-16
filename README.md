@@ -1,1 +1,0 @@
-# yolo-image-cropper
