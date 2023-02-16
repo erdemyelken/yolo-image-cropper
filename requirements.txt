@@ -1,0 +1,2 @@
+ultralytics==0.4.7
+pillow==8.4.0
